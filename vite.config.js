@@ -10,5 +10,5 @@ const base = process.env.BASE_PATH || (repositoryName ? `/${repositoryName}/` : 
 
 export default defineConfig({
   plugins: [vue()],
-  base
+  base: '/nereto-beer-festival-menu/'
 })

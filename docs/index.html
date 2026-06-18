@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f6b12a" />
+    <meta
+      name="description"
+      content="Menu digitale del Nereto Beer Festival 2026 - V Edizione"
+    />
+    <meta property="og:title" content="Nereto Beer Festival 2026 - Menu" />
+    <meta property="og:description" content="Fritti, panini e birre del Nereto Beer Festival." />
+    <meta property="og:image" content="/nereto-beer-festival-menu/assets/images/logo-main.png" />
+    <title>Nereto Beer Festival 2026 - Menu</title>
+
+    <link rel="icon" href="/nereto-beer-festival-menu/favicon.svg" />
+
+    <link
+      rel="preload"
+      as="image"
+      href="/nereto-beer-festival-menu/assets/images/logo-main.png"
+      fetchpriority="high"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Loader critico: appare subito, prima che Vue e il CSS principale siano caricati. -->
+    <style>
+      :root {
+        --nbf-loader-bg: linear-gradient(180deg, #fff7dc 0%, #fff1bd 46%, #e3bf1d 100%);
+      }
+
+      html,
+      body,
+      #app {
+        min-height: 100%;
+      }
+
+      body {
+        margin: 0;
+        background: var(--nbf-loader-bg);
+      }
+
+      .app-loader--static {
+        position: fixed;
+        inset: 0;
+        z-index: 9999;
+        display: grid;
+        place-items: center;
+        min-height: 100dvh;
+        padding: 1.5rem;
+        overflow: hidden;
+        background: var(--nbf-loader-bg);
+      }
+
+      .app-loader--static img {
+        display: block;
+        width: min(68vw, 300px);
+        height: auto;
+        filter: drop-shadow(0 20px 22px rgba(53, 20, 3, 0.28));
+        animation: nbfStaticLoader 1.25s ease-in-out infinite;
+      }
+
+      @keyframes nbfStaticLoader {
+        0%,
+        100% {
+          transform: translateY(0) scale(1) rotate(-1deg);
+        }
+
+        50% {
+          transform: translateY(-8px) scale(1.025) rotate(1deg);
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="/nereto-beer-festival-menu/assets/index-HtkXOgox.js"></script>
+    <link rel="stylesheet" crossorigin href="/nereto-beer-festival-menu/assets/index-chWgG4yM.css">
+  </head>
+
+  <body>
+    <noscript>Per vedere il menu è necessario abilitare JavaScript.</noscript>
+
+    <div id="app">
+      <section class="app-loader--static" aria-label="Caricamento menu">
+        <img
+          src="/nereto-beer-festival-menu/assets/images/logo-main.png"
+          width="827"
+          height="768"
+          alt="Nereto Beer Festival"
+          fetchpriority="high"
+          decoding="async"
+        />
+      </section>
+    </div>
+
+  </body>
+</html>
