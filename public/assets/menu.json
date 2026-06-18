@@ -1,0 +1,154 @@
+{
+  "festival": {
+    "title": "Nereto Beer Festival",
+    "edition": "V Edizione",
+    "year": "2026",
+    "claim": "Curiamo gli assetati",
+    "dates": "Dal 30 giugno al 5 luglio",
+    "location": "P.zza Cavour, Nereto TE",
+    "heroNote": "Menu digitale ufficiale"
+  },
+  "contacts": {
+    "facebook": "https://www.facebook.com/neretobeerfestival",
+    "instagram": "https://www.instagram.com/beerfestivalnereto/",
+    "whatsapp": "https://wa.me/393534842559"
+  },
+  "notice": null,
+  "categories": [
+    {
+      "id": "fritti",
+      "title": "Fritti",
+      "subtitle": "Caldi, croccanti, perfetti da condividere.",
+      "icon": "🍟",
+      "color": "#f6b12a",
+      "items": [
+        {
+          "name": "Olive all'ascolana",
+          "description": "Croccanti fuori, morbide dentro. Il grande classico che sparisce subito.",
+          "price": "€ 5,00",
+          "allergens": ["glutine", "uova"],
+          "badge": "Top"
+        },
+        {
+          "name": "Patatine fritte",
+          "description": "Porzione generosa, dorata e salata al punto giusto.",
+          "price": "€ 4,00",
+          "allergens": [],
+          "badge": "Classic"
+        },
+        {
+          "name": "Anelli di cipolla",
+          "description": "Pastella croccante e gusto deciso. Perfetti con una bionda fresca.",
+          "price": "€ 4,50",
+          "allergens": ["glutine"],
+          "badge": "Crunch"
+        },
+        {
+          "name": "Mozzarelline fritte",
+          "description": "Bocconcini filanti in panatura dorata.",
+          "price": "€ 5,00",
+          "allergens": ["latte", "glutine"],
+          "badge": "Filanti"
+        },
+        {
+          "name": "Mix Festival",
+          "description": "Assaggio misto di fritti per il tavolo. Consigliato per gruppi assetati e affamati.",
+          "price": "€ 9,00",
+          "allergens": ["glutine", "latte", "uova"],
+          "badge": "Da dividere",
+          "featured": true
+        }
+      ]
+    },
+    {
+      "id": "panini",
+      "title": "Panini",
+      "subtitle": "Pane caldo, farciture importanti e zero tristezza.",
+      "icon": "🥪",
+      "color": "#db7c16",
+      "items": [
+        {
+          "name": "Panino salsiccia e peperoni",
+          "description": "Salsiccia alla griglia, peperoni e pane croccante.",
+          "price": "€ 7,00",
+          "allergens": ["glutine"],
+          "badge": "Festival"
+        },
+        {
+          "name": "Hamburger Beer Fest",
+          "description": "Burger, formaggio, insalata, salsa festival e pane tostato.",
+          "price": "€ 8,00",
+          "allergens": ["glutine", "latte", "sesamo"],
+          "badge": "Best seller",
+          "featured": true
+        },
+        {
+          "name": "Panino pulled pork",
+          "description": "Maiale sfilacciato, salsa BBQ e cipolla croccante.",
+          "price": "€ 8,50",
+          "allergens": ["glutine", "senape"],
+          "badge": "BBQ"
+        },
+        {
+          "name": "Panino vegetariano",
+          "description": "Verdure grigliate, formaggio e salsa leggera.",
+          "price": "€ 6,50",
+          "allergens": ["glutine", "latte"],
+          "badge": "Veg"
+        },
+        {
+          "name": "Panino porchetta",
+          "description": "Porchetta, erbe aromatiche e pane caldo.",
+          "price": "€ 7,50",
+          "allergens": ["glutine"],
+          "badge": "Rustico"
+        }
+      ]
+    },
+    {
+      "id": "birre",
+      "title": "Birre",
+      "subtitle": "Bionde, rosse e luppolate. La sete qui non comanda.",
+      "icon": "🍺",
+      "color": "#5fa09a",
+      "items": [
+        {
+          "name": "Bionda alla spina",
+          "description": "Fresca, beverina, perfetta per iniziare la serata.",
+          "price": "€ 5,00",
+          "allergens": ["glutine"],
+          "badge": "Alla spina",
+          "featured": true
+        },
+        {
+          "name": "Rossa artigianale",
+          "description": "Maltata, intensa, con finale morbido.",
+          "price": "€ 6,00",
+          "allergens": ["glutine"],
+          "badge": "Maltata"
+        },
+        {
+          "name": "IPA luppolata",
+          "description": "Profumata, amara al punto giusto, per chi vuole carattere.",
+          "price": "€ 6,50",
+          "allergens": ["glutine"],
+          "badge": "Strong"
+        },
+        {
+          "name": "Weiss",
+          "description": "Morbida, speziata, con note fruttate.",
+          "price": "€ 6,00",
+          "allergens": ["glutine"],
+          "badge": "Fresh"
+        },
+        {
+          "name": "Birra analcolica",
+          "description": "Gusto leggero, zero alcol, stessa voglia di festa.",
+          "price": "€ 4,50",
+          "allergens": ["glutine"],
+          "badge": "0.0"
+        }
+      ]
+    }
+  ]
+}
