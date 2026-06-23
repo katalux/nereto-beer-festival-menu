@@ -13,140 +13,215 @@
     "instagram": "https://www.instagram.com/beerfestivalnereto/",
     "whatsapp": "https://wa.me/393534842559"
   },
-  "notice": null,
+  "notice": "Per allergie o intolleranze, comunicalo in cassa prima di ordinare. Lo staff ti darà le informazioni disponibili sugli ingredienti.",
   "categories": [
+    {
+      "id": "birre",
+      "title": "Birre",
+      "subtitle": "Alla spina, fresche e pronte per la serata.",
+      "icon": "🍺",
+      "color": "#f6b12a",
+      "items": [
+        {
+          "name": "Birra Bionda Castello 0,3",
+          "description": "Bionda fresca e leggera, ideale per iniziare.",
+          "price": "€ 3,50",
+          "allergens": ["info in cassa"],
+          "badge": "Bionda"
+        },
+        {
+          "name": "Birra Bianca Super 8 0,3",
+          "description": "Bianca aromatica, morbida e piacevole.",
+          "price": "€ 4,00",
+          "allergens": ["info in cassa"],
+          "badge": "Bianca"
+        },
+        {
+          "name": "Birra Ducato Free Rider 0,3",
+          "description": "Birra dal carattere deciso, perfetta con fritti e panini.",
+          "price": "€ 5,00",
+          "allergens": ["info in cassa"],
+          "badge": "Special",
+          "featured": true
+        },
+        {
+          "name": "Birra Mastio Abbazia Bruna 0,3",
+          "description": "Bruna intensa, maltata e corposa.",
+          "price": "€ 5,00",
+          "allergens": ["info in cassa"],
+          "badge": "Bruna"
+        }
+      ]
+    },
+    {
+      "id": "bevande",
+      "title": "Bevande",
+      "subtitle": "Analcolici e aperitivi per accompagnare il menu.",
+      "icon": "🥤",
+      "color": "#db7c16",
+      "items": [
+        {
+          "name": "Coca-Cola 0,3",
+          "description": "Servita fresca.",
+          "price": "€ 3,00",
+          "allergens": ["info in cassa"],
+          "badge": "Analcolico"
+        },
+        {
+          "name": "Acqua 0,5",
+          "description": "Bottiglietta d'acqua.",
+          "price": "€ 1,00",
+          "allergens": ["info in cassa"],
+          "badge": "Acqua"
+        },
+        {
+          "name": "Campari",
+          "description": "Aperitivo secco e deciso.",
+          "price": "€ 2,00",
+          "allergens": ["info in cassa"],
+          "badge": "Aperitivo"
+        },
+        {
+          "name": "Campari + Fanta",
+          "description": "Aperitivo fresco e frizzante.",
+          "price": "€ 2,50",
+          "allergens": ["info in cassa"],
+          "badge": "Mix"
+        },
+        {
+          "name": "Campari + Prosecco",
+          "description": "Aperitivo frizzante in stile festival.",
+          "price": "€ 2,50",
+          "allergens": ["info in cassa"],
+          "badge": "Mix"
+        }
+      ]
+    },
+    {
+      "id": "panini-griglia",
+      "title": "Panini e Griglia",
+      "subtitle": "Classici da festa, panini e piatti più sostanziosi.",
+      "icon": "🍔",
+      "color": "#a11420",
+      "items": [
+        {
+          "name": "Calzone",
+          "description": "Calzone caldo e farcito.",
+          "price": "€ 4,50",
+          "allergens": ["info in cassa"],
+          "badge": "Caldo"
+        },
+        {
+          "name": "Arrosticini",
+          "description": "Arrosticini alla brace.",
+          "price": "€ 1,00",
+          "allergens": ["info in cassa"],
+          "badge": "Al pezzo"
+        },
+        {
+          "name": "Panino con salsiccia",
+          "description": "Salsiccia alla griglia in pane caldo.",
+          "price": "€ 4,00",
+          "allergens": ["info in cassa"],
+          "badge": "Griglia"
+        },
+        {
+          "name": "Hamburger con patatine",
+          "description": "Hamburger servito con patatine fritte.",
+          "price": "€ 8,00",
+          "allergens": ["info in cassa"],
+          "badge": "Con patatine",
+          "featured": true
+        },
+        {
+          "name": "Hamburger Beer Festival",
+          "description": "Il panino speciale della festa, ricco e completo.",
+          "price": "€ 12,00",
+          "allergens": ["info in cassa"],
+          "badge": "Special",
+          "featured": true
+        }
+      ]
+    },
     {
       "id": "fritti",
       "title": "Fritti",
-      "subtitle": "Caldi, croccanti, perfetti da condividere.",
+      "subtitle": "Croccanti, caldi e perfetti con una birra fresca.",
       "icon": "🍟",
       "color": "#f6b12a",
       "items": [
         {
-          "name": "Olive all'ascolana",
-          "description": "Croccanti fuori, morbide dentro. Il grande classico che sparisce subito.",
-          "price": "€ 5,00",
-          "allergens": ["glutine", "uova"],
-          "badge": "Top"
+          "name": "Frittella",
+          "description": "Frittella calda e dorata.",
+          "price": "€ 3,50",
+          "allergens": ["info in cassa"],
+          "badge": "Fritto"
+        },
+        {
+          "name": "Frittella con prosciutto crudo",
+          "description": "Frittella farcita con prosciutto crudo.",
+          "price": "€ 4,00",
+          "allergens": ["info in cassa"],
+          "badge": "Farcita"
+        },
+        {
+          "name": "Frittellone con prosciutto crudo e formaggio",
+          "description": "Versione grande, farcita con prosciutto crudo e formaggio.",
+          "price": "€ 7,00",
+          "allergens": ["info in cassa"],
+          "badge": "Big"
+        },
+        {
+          "name": "Bocconcini pollo e chili dolce",
+          "description": "8 pezzi serviti con salsa chili dolce.",
+          "price": "€ 6,00",
+          "allergens": ["info in cassa"],
+          "badge": "8 pezzi"
+        },
+        {
+          "name": "Formaggio fritto",
+          "description": "Formaggio fritto caldo e filante.",
+          "price": "€ 4,50",
+          "allergens": ["info in cassa"],
+          "badge": "Filante"
         },
         {
           "name": "Patatine fritte",
-          "description": "Porzione generosa, dorata e salata al punto giusto.",
-          "price": "€ 4,00",
-          "allergens": [],
+          "description": "Porzione di patatine fritte croccanti.",
+          "price": "€ 3,50",
+          "allergens": ["info in cassa"],
           "badge": "Classic"
-        },
-        {
-          "name": "Anelli di cipolla",
-          "description": "Pastella croccante e gusto deciso. Perfetti con una bionda fresca.",
-          "price": "€ 4,50",
-          "allergens": ["glutine"],
-          "badge": "Crunch"
-        },
-        {
-          "name": "Mozzarelline fritte",
-          "description": "Bocconcini filanti in panatura dorata.",
-          "price": "€ 5,00",
-          "allergens": ["latte", "glutine"],
-          "badge": "Filanti"
-        },
-        {
-          "name": "Mix Festival",
-          "description": "Assaggio misto di fritti per il tavolo. Consigliato per gruppi assetati e affamati.",
-          "price": "€ 9,00",
-          "allergens": ["glutine", "latte", "uova"],
-          "badge": "Da dividere",
-          "featured": true
         }
       ]
     },
     {
-      "id": "panini",
-      "title": "Panini",
-      "subtitle": "Pane caldo, farciture importanti e zero tristezza.",
-      "icon": "🥪",
-      "color": "#db7c16",
+      "id": "dolci",
+      "title": "Dolci",
+      "subtitle": "Per chiudere in bellezza o fare una pausa golosa.",
+      "icon": "🍩",
+      "color": "#5b2d12",
       "items": [
         {
-          "name": "Panino salsiccia e peperoni",
-          "description": "Salsiccia alla griglia, peperoni e pane croccante.",
-          "price": "€ 7,00",
-          "allergens": ["glutine"],
-          "badge": "Festival"
-        },
-        {
-          "name": "Hamburger Beer Fest",
-          "description": "Burger, formaggio, insalata, salsa festival e pane tostato.",
-          "price": "€ 8,00",
-          "allergens": ["glutine", "latte", "sesamo"],
-          "badge": "Best seller",
+          "name": "Angioletti",
+          "description": "8 pezzi. Disponibili con Nutella o crema di pistacchio.",
+          "price": "€ 4,00",
+          "allergens": ["info in cassa"],
+          "badge": "Nutella / Pistacchio",
           "featured": true
         },
         {
-          "name": "Panino pulled pork",
-          "description": "Maiale sfilacciato, salsa BBQ e cipolla croccante.",
-          "price": "€ 8,50",
-          "allergens": ["glutine", "senape"],
-          "badge": "BBQ"
+          "name": "Ciambella",
+          "description": "Ciambella semplice.",
+          "price": "€ 2,00",
+          "allergens": ["info in cassa"],
+          "badge": "Semplice"
         },
         {
-          "name": "Panino vegetariano",
-          "description": "Verdure grigliate, formaggio e salsa leggera.",
-          "price": "€ 6,50",
-          "allergens": ["glutine", "latte"],
-          "badge": "Veg"
-        },
-        {
-          "name": "Panino porchetta",
-          "description": "Porchetta, erbe aromatiche e pane caldo.",
-          "price": "€ 7,50",
-          "allergens": ["glutine"],
-          "badge": "Rustico"
-        }
-      ]
-    },
-    {
-      "id": "birre",
-      "title": "Birre",
-      "subtitle": "Bionde, rosse e luppolate. La sete qui non comanda.",
-      "icon": "🍺",
-      "color": "#5fa09a",
-      "items": [
-        {
-          "name": "Bionda alla spina",
-          "description": "Fresca, beverina, perfetta per iniziare la serata.",
-          "price": "€ 5,00",
-          "allergens": ["glutine"],
-          "badge": "Alla spina",
-          "featured": true
-        },
-        {
-          "name": "Rossa artigianale",
-          "description": "Maltata, intensa, con finale morbido.",
-          "price": "€ 6,00",
-          "allergens": ["glutine"],
-          "badge": "Maltata"
-        },
-        {
-          "name": "IPA luppolata",
-          "description": "Profumata, amara al punto giusto, per chi vuole carattere.",
-          "price": "€ 6,50",
-          "allergens": ["glutine"],
-          "badge": "Strong"
-        },
-        {
-          "name": "Weiss",
-          "description": "Morbida, speziata, con note fruttate.",
-          "price": "€ 6,00",
-          "allergens": ["glutine"],
-          "badge": "Fresh"
-        },
-        {
-          "name": "Birra analcolica",
-          "description": "Gusto leggero, zero alcol, stessa voglia di festa.",
-          "price": "€ 4,50",
-          "allergens": ["glutine"],
-          "badge": "0.0"
+          "name": "Ciambella farcita",
+          "description": "Disponibile con Nutella o crema di pistacchio.",
+          "price": "€ 2,50",
+          "allergens": ["info in cassa"],
+          "badge": "Nutella / Pistacchio"
         }
       ]
     }
