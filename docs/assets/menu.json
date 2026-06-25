@@ -112,6 +112,13 @@
           "badge": "Caldo"
         },
         {
+          "name": "Brezel",
+          "description": "Brezel caldo, morbido e salato, perfetto da accompagnare con una birra.",
+          "price": "€ 3,00",
+          "allergens": ["info in cassa"],
+          "badge": "Snack"
+        },
+        {
           "name": "Arrosticini",
           "description": "Arrosticini alla brace.",
           "price": "€ 1,10/cad",
