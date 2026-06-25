@@ -114,9 +114,17 @@
         {
           "name": "Arrosticini",
           "description": "Arrosticini alla brace.",
-          "price": "€ 1,00",
+          "price": "€ 1,10/cad",
           "allergens": ["info in cassa"],
           "badge": "Al pezzo"
+        },
+        {
+          "name": "Stinco di maiale",
+          "description": "Stinco di maiale con patatine fritte.",
+          "price": "€ 12,00",
+          "allergens": ["info in cassa"],
+          "badge": "Forno",
+          "featured": true
         },
         {
           "name": "Panino con salsiccia",
@@ -153,7 +161,7 @@
         {
           "name": "Frittella",
           "description": "Frittella calda e dorata.",
-          "price": "€ 3,50",
+          "price": "€ 3,00",
           "allergens": ["info in cassa"],
           "badge": "Fritto"
         },
