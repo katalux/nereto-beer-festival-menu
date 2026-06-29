@@ -24,10 +24,11 @@
       "items": [
         {
           "name": "Birra Bionda Castello 0,3",
-          "description": "Bionda fresca e leggera, ideale per iniziare.",
+          "description": "Bionda fresca e leggera, ideale per iniziare. Servita al tavolo!",
           "price": "€ 3,50",
           "allergens": ["info in cassa"],
-          "badge": "Bionda"
+          "badge": "Bionda",
+          "featured": true
         },
         {
           "name": "Birra Bianca Super 8 0,3",
@@ -62,14 +63,14 @@
       "items": [
         {
           "name": "Coca-Cola 0,3",
-          "description": "Servita fresca.",
+          "description": "Per chi ha bisogno di zuccheri.",
           "price": "€ 3,00",
           "allergens": ["info in cassa"],
           "badge": "Analcolico"
         },
         {
           "name": "Acqua 0,5",
-          "description": "Bottiglietta d'acqua.",
+          "description": "Destinata ai santi protettori della patente.",
           "price": "€ 1,00",
           "allergens": ["info in cassa"],
           "badge": "Acqua"
@@ -120,7 +121,7 @@
         },
         {
           "name": "Arrosticini",
-          "description": "Arrosticini alla brace.",
+          "description": "Beeee.",
           "price": "€ 1,10/cad",
           "allergens": ["info in cassa"],
           "badge": "Al pezzo"
@@ -150,7 +151,7 @@
         },
         {
           "name": "Hamburger Beer Festival",
-          "description": "Il panino speciale della festa, ricco e completo.",
+          "description": "Il panino speciale della festa, ricco e completo di formaggio fritto.",
           "price": "€ 12,00",
           "allergens": ["info in cassa"],
           "badge": "Special",
